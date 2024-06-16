@@ -5,7 +5,10 @@ Burada En kolay ve en pratik uart transmit dönüşümünü anlatmaya çalışac
 
 
 ## Kullanım/Örnekler
-UART üzerinden bilgiler uint8_t formatında gönderilir.
+UART üzerinden bilgiler uint8_t formatında gönderilir. STM32CubeIDE'de bu çalışmanın tanımlanabilir olması için sol üstten **Project > Proporties > C/C++ Build > Settings > MCU Settings** kısmından **use float with printf from new libnano** aktif olması gerekmektedir.
+
+![image](https://github.com/spacemonochrome/stm32_uart_transceiver_transformation/assets/52783312/b3f4d072-668d-4301-a66f-bfeca398ad62)
+
 
 Aşağıdaki örnekte String olarak '1' '2' '3' yani 49 50 51 gönderilir.
 ```c
